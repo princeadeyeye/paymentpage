@@ -1,10 +1,13 @@
 import React, { Component } from 'react'
 import securityCode from '../assets/images/security-code.jpg'
+import BreadCrumb from './BreadCrumb'
+
 
 export default class Login extends Component {
     render() {
         return (
             <div>
+            <BreadCrumb title='Welcome Back!' home='Home' page='Login' />
             <section class="hero-section">
             <div class="hero-area wave-animation">
                 <div class="single-hero gradient-overlay">

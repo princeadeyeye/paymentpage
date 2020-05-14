@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from '../assets/images/logo.png'
+import logo from '../assets/images/logo-blue.png'
 
 
 export default class Header extends Component {
@@ -9,7 +9,7 @@ export default class Header extends Component {
                 <nav class="navbar navbar-expand-lg main-menu">
                     <div class="container-fluid">
 
-                        <a class="navbar-brand" href="index.html"><img src={logo} class="d-inline-block align-top" alt=""/></a>
+                        <a class="navbar-brand" href="/"><img src={logo} class="d-inline-block align-top " alt=""/>Money</a>
 
                         <button 
                         class="navbar-toggler" 
@@ -25,22 +25,22 @@ export default class Header extends Component {
 
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">    
                         <ul class="navbar-nav m-auto">
-                                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                                 <li class="nav-item"><a class="nav-link" href="/create-account">Register</a></li>
-                                <li class="nav-item"><a class="nav-link" href="/signin">Login</a></li>
+                                <li class="nav-item"><a class="nav-link" href="/login">Login</a></li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="dashboard.html" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dashboard</a>
+                                    <a class="nav-link dropdown-toggle" href="/dashboard" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dashboard</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="dashboard.html">Dashboard</a></li>
-                                        <li><a class="dropdown-item" href="profile.html">Profile</a></li>
-                                        <li><a class="dropdown-item" href="exchange-currency.html">Exchange Currency</a></li>
-                                        <li><a class="dropdown-item" href="money-transfer.html">Money Transfer</a></li>
-                                        <li><a class="dropdown-item" href="request-money.html">Request Money</a></li>
-                                        <li><a class="dropdown-item" href="withdraw.html">Withdraw Money</a></li>
-                                        <li><a class="dropdown-item" href="transection-log.html">Transection Log</a></li>
-                                        <li><a class="dropdown-item" href="invoice.html">Invoice</a></li>
-                                        <li><a class="dropdown-item" href="vouchers.html">Vouchers</a></li>
-                                        <li><a class="dropdown-item" href="support-ticket.html">Support Ticket</a></li>
+                                        <li><a class="dropdown-item" href="/dashboard">Dashboard</a></li>
+                                        <li><a class="dropdown-item" href="/profile">Profile</a></li>
+                                        <li><a class="dropdown-item" href="/exchange-currency">Exchange Currency</a></li>
+                                        <li><a class="dropdown-item" href="/money-transfer">Money Transfer</a></li>
+                                        <li><a class="dropdown-item" href="/request-money">Request Money</a></li>
+                                        <li><a class="dropdown-item" href="/withdraw-money">Withdraw Money</a></li>
+                                        <li><a class="dropdown-item" href="/transaction-log">Transection Log</a></li>
+                                        <li><a class="dropdown-item" href="/invoice">Invoice</a></li>
+                                        <li><a class="dropdown-item" href="/vouchers">Vouchers</a></li>
+                                        <li><a class="dropdown-item" href="/support">Support Ticket</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item"><a class="nav-link" href="/blog">News</a></li>
@@ -74,7 +74,7 @@ export default class Header extends Component {
                                 <option value="">Gr</option>
     </select>*/}
                             <div class="header-btn justify-content-end">
-                                <a href="dashboard.html" class="bttn-small btn-emt"><i class="ti-crown"></i>Dashboard</a>
+                                <a href="/dashboard" class="bttn-small btn-emt"><i class="ti-crown"></i>Dashboard</a>
                             </div>
                         </div>
                     </div>

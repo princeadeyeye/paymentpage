@@ -1,26 +1,12 @@
 import React, { Component } from 'react'
 import Sidebar from './Sidebar'
+import BreadCrumb from './BreadCrumb'
 
 export default class Dashbord extends Component {
     render() {
         return (
             <div>
-            <section class="breadcrumb-area gradient-overlay">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 centered">
-                        <div class="banner-title">
-                            <h2>Welcome back!</h2>
-                        </div>
-                        <ul>
-                            <li><a href="">Home</a></li>
-                            <li>Dashboard</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-    
+        <BreadCrumb title='Welcome back!' home='Home' page='Dashboard' />
         <section class="section-padding-2 gradient-overlay poly-particle">
             <div class="container">
                 <div class="row">

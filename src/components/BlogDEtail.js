@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import banner3 from '../assets/images/banners/3.jpg'
 
 export default class BlogDEtail extends Component {
     render() {
         return (
             <div>
-            <section class="breadcrumb-area fixed-head gradient-overlay" style="background: url('assets/images/banners/3.jpg');">
+            <section class="breadcrumb-area fixed-head gradient-overlay" style= {{ backgroundImage: `url(${banner3})` }}>
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 centered">

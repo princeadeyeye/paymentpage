@@ -1,9 +1,11 @@
 import React, { Component } from 'react'
+import BreadCrumb from './BreadCrumb'
 
 export default class Register extends Component {
     render() {
         return (
             <div>
+            <BreadCrumb title='Register ' home='Home' page='Register' />
             <section class="hero-section">
             <div class="hero-area wave-animation">
                 <div class="single-hero gradient-overlay">

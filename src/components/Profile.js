@@ -1,26 +1,12 @@
 import React, { Component } from 'react'
 import Sidebar from './Sidebar'
+import BreadCrumb from './BreadCrumb'
 
 export default class Profile extends Component {
     render() {
         return (
             <div>
-            <section class="breadcrumb-area gradient-overlay">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 centered">
-                        <div class="banner-title">
-                            <h2>Profile Settings</h2>
-                        </div>
-                        <ul>
-                            <li><a href="">Dashboard</a></li>
-                            <li>Profile Settings</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-    
+        <BreadCrumb title='Profile Settings' home='Dashboard' page='Profile Settings' />
         <section class="section-padding-2 gradient-overlay poly-particle">
             <div class="container">
                 <div class="row">
